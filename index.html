@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Stylish Portfolio - Start Bootstrap Template</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Bhagitha Paramesh</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#">Services</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">FSD-Exercises on Js</h1>
+      <h3 class="mb-5">
+        <em>Solutions to class excercises on javascript</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Generate solutions</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>Prime or not!!</h2>
+          <p class="lead mb-5">Please enter some numbers :
+            <input type="text" name="txtChar" id="txtChar" onkeypress="return isNumberKey(event)" >
+            <label for="" id="result"> ....</label>
+            
+            <button class="btn btn-primary text-secondary btn-xl js-scroll-trigger" onclick="get_element()"> Check  </button>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about2">Next</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- About2 -->
+    <section class="content-section bg-primary" id="about2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>most frequent item !!</h2>
+            <p class="lead mb-5">Please click <b>check</b> button :
+              <input type="text" name="txtChar1" id="txtChar1"   >
+              <label for="" id="result1"> ....</label>
+              
+              <button class="btn btn-light text-dark btn-xl js-scroll-trigger" onclick="get_element1()"> Check  </button>
+             <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about3">Next</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About3 -->
+    <section class="content-section bg-light" id="about3">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Swap Cases !!</h2>
+            <p class="lead mb-5">Please enter some text :
+              <input type="text" name="txtChar2" id="txtChar2"  >
+              <label for="" id="result2"> ....</label>
+              
+              <button class="btn btn-primary text-secondary btn-xl js-scroll-trigger" onclick="get_element2()"> Check  </button>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about4">Next</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About4 -->
+    <section class="content-section bg-primary" id="about4">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Sum of Squares !!</h2>
+            <p class="lead mb-5">Please enter some numbers :
+              <input type="text" name="txtChar3" id="txtChar3" onkeypress="return isNumberKey(event)" >
+              <label for="" id="result3"> ....</label>
+              
+              <button class="btn btn-light text-dark btn-xl js-scroll-trigger" onclick="get_element3()"> Check  </button>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about5">Next</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About5 -->
+    <section class="content-section bg-light" id="about5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>odd or even !!</h2>
+            <p class="lead mb-5">click check:
+              <!-- <input type="text" name="txtChar4" id="txtChar4" readonly > -->
+              <div name="" id="result4"></div>
+              <!-- <label for="" id="result4"> ....</label> -->
+              <br>
+              <button class="btn btn-primary text-secondary btn-xl js-scroll-trigger" onclick="get_element4()"> Check  </button>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about6">Next</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About6 -->
+    <section class="content-section bg-primary" id="about6">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Truncate the string !!</h2>
+            <p class="lead mb-5">Please enter your Name (max 10 character) :
+              <input type="text" name="txtChar5" id="txtChar5" >
+              <label for="" id="result5"> ....</label>
+              
+              <button class="btn btn-light text-dark btn-xl js-scroll-trigger" onclick="get_element5()"> Check  </button>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about7">Next</a>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- About7 -->
+  <section class="content-section bg-light" id="about7">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>largest !!</h2>
+          <p class="lead mb-5">Please enter integer A:
+            <input type="text" name="txtChar6" id="txtChar6" onkeypress="return isNumberKey(event)" >
+            <p class="lead ">Please enter integer B:
+              <input type="text" name="txtChar7" id="txtChar7" onkeypress="return isNumberKey(event)" >
+            <label for="" id="result6"> ....</label>
+            
+            <button class="btn btn-primary text-secondary btn-xl js-scroll-trigger" onclick="findLarge()"> Check  </button>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about8">Next</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- About8 -->
+    <section class="content-section bg-primary" id="about8">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>alphabetical order !!</h2>
+            <p class="lead mb-5">Please enter some text :
+              <input type="text" name="txtChar8" id="txtChar8" >
+              <label for="" id="result8"> ....</label>
+              
+              <button class="btn btn-light text-dark btn-xl js-scroll-trigger" onclick="get_element8()"> Check  </button>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about9">Next</a>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- About9 -->
+  <section class="content-section bg-light" id="about9">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>pattern !!</h2>
+         <div id="result9"></div>
+            
+            <button class="btn btn-primary text-secondary btn-xl js-scroll-trigger" onclick="get_element9()"> Check  </button>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about10">Next</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- About10 -->
+    <section class="content-section bg-primary" id="about10">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Star Pattern !!</h2>
+            <div id="result10"></div>
+              
+              <button class="btn btn-light text-dark btn-xl js-scroll-trigger" onclick="get_element10()"> Check  </button>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#page-top">Finish</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  
+
+  
+  
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="icon-social-facebook"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="#">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="#">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; my Website 2020</p>
+      <p class="text-muted small mb-0">Designed by <span>Bhagitha Paramesh</span></p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+  <script src="js/codeforassignment.js"></script>
+
+</body>
+
+</html>
